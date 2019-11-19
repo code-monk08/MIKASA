@@ -1,7 +1,11 @@
 #! /bin/bash
 
+RED="\e[31m"
+printf "${RED}"
 
-figlet "MIKASA"
+figlet -f standard "MIKASA"
+STOP="\e[0m"
+printf "${STOP}"
 echo "Select the following options"
 echo "1 :  HTTP Request Response"
 echo "2 :  ARP Monitoring"
