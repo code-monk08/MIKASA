@@ -14,9 +14,11 @@ read -p "Enter your choice: " choice
 if [[ $choice == "1" ]]
 then
     read -p "Please enter interface: " interface
-    if [[ -z $interface ]]
-    then 
-        ./http_requests $interface
+    if [[ ! -z $interface ]]
+    then
+        chmod +x http_requests
+        sudo ./http_requests $interface
+    else
+        echo "Please enter correct interface"    
     fi
-    echo "Exiting State"
 fi
