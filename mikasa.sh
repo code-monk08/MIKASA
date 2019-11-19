@@ -52,12 +52,12 @@ then
 elif [[ $choice == "4" ]]
 then
     read -p "Please enter Interface: " interface
-    if [[ ! -z $IP ]]
+    if [[ ! -z $interface ]]
     then 
         chmod +x dns_queries
         sudo ./dns_queries $interface
     else
-        echo "Please enter interface"
+        echo "Please enter interface correctly"
     fi
 
 elif [[ $choice == "5" ]]
