@@ -2,7 +2,7 @@
 Security made Simple
 
 ## About :                    
-A Tool for simple and efficient Intrusion Detection & Network Traffic Analysis.
+A CLI tool for simple and efficient Network Traffic Analysis.
 
 ## INTRODUCTION :
 
