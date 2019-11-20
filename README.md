@@ -26,4 +26,4 @@ We will be using this library in this project in order to implement packet sniff
 
 ## SETUP
 
-Setup libtins using ![this](http://libtins.github.io/download/)
+Setup libtins using [this](http://libtins.github.io/download/)
