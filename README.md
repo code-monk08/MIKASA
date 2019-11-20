@@ -23,3 +23,7 @@ We will be using this library in this project in order to implement packet sniff
 - **HTTP request/response follower** : It captures and reassembles TCP streams, showing for each request, the HTTP method, URL, host and the server's response code. 
 - **DNS queries sniffer** : Sniffs DNS queries and prints the domain names being queried.
 - **Traceroute** : It is a computer network diagnostic tool for displaying the route and measure transit delays of packets across an Internet Protocol network. 
+
+## SETUP
+
+Setup libtins using ![this](http://libtins.github.io/download/)
