@@ -1,5 +1,5 @@
 # MIKASA
-Security made Simple
+Network Analysis made Simple
 
 ## About :                    
 A CLI tool for simple and efficient Network Traffic Analysis.
